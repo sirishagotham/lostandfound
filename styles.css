@@ -1,0 +1,132 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #eaf6fc;
+  margin: 0;
+}
+
+
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-box input {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  padding: 14px;
+  font-size: 16px;
+  width: 100%;
+  background: #2d9cdb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.dashboard {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.dashboard-header h2 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+.highlight {
+  color: #2d9cdb;
+}
+
+.dashboard-actions button {
+  margin-left: 10px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2d9cdb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard-actions .reset {
+  background: #e63946;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.form-section, .list-section {
+  flex: 1 1 400px;
+}
+
+form input, form textarea, form select {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form button {
+  background: #28a745;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.item-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 10px 0;
+  background: #f7fbff;
+}
+
+.match-section {
+  margin-top: 30px;
+}
+
+.claimed-msg {
+  color: green;
+  font-weight: bold;
+}
